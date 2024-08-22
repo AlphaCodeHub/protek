@@ -9,17 +9,16 @@ import time, random, asyncio, timeit, sys, json, codecs, threading, glob, re, st
 botStart = time.time()
 
 
-arif = LineClient(authToken='EuqJA3q0p0ybnpQtumNc.YiNb/pDcDpex4kdwNmXvNa.KUVSbytLb8hJO28+DkE22kBSyUeVORLILPPf3x5BXPk=')
+arif = LineClient(authToken='troh6qtX59Jv06QQtLXqOKWxDxolhpDcwvejBkAtIa8B42SL4EIlUXZBnZEVQmyzF0AaeAXIpUQqTufuLrGZUbvHedOmrfV5MfqbiNMl2J72BRIhsHwk8JQY4QIWtO9kmyRmisAwyL4BTGCxQjkgoAdB04t89/1O/w1cDnyilFU=')
 arif.log("Auth Token : " + str(arif.authToken))
 channel = LineChannel(arif)
 arif.log("Channel Access Token : " + str(channel.channelAccessToken))
 #======================
-arif1 = LineClient(authToken='EuU7IOT7vepojJZqvXHf.zsjptOGse28bSLj1PuTA7W.KyRp+btjSSGo+nMwNEYUh/STzPFxINc5/A73FwBPr3E=')
+arif1 = LineClient(authToken=troh6qtX59Jv06QQtLXqOKWxDxolhpDcwvejBkAtIa8B42SL4EIlUXZBnZEVQmyzF0AaeAXIpUQqTufuLrGZUbvHedOmrfV5MfqbiNMl2J72BRIhsHwk8JQY4QIWtO9kmyRmisAwyL4BTGCxQjkgoAdB04t89/1O/w1cDnyilFU=')
 arif1.log("Auth Token : " + str(arif1.authToken))
 #======================
-arif2 = LineClient(authToken='Eu2hej9Gbr1Qkse0xLhd.shyzkohN5EqZUaaBNnCr+q.RtKKYJl1nWT+tW3k+FrKBdWTEuYtr2dJp5j/NHdLhhg=')
+arif2 = LineClient(authToken='troh6qtX59Jv06QQtLXqOKWxDxolhpDcwvejBkAtIa8B42SL4EIlUXZBnZEVQmyzF0AaeAXIpUQqTufuLrGZUbvHedOmrfV5MfqbiNMl2J72BRIhsHwk8JQY4QIWtO9kmyRmisAwyL4BTGCxQjkgoAdB04t89/1O/w1cDnyilFU=')
 arif2.log("Auth Token : " + str(arif2.authToken))
-#======================
 settingsOpen = codecs.open("arifbots.json","r","utf-8")
 poll = LinePoll(arif)
 clientProfile = arif.getProfile()
