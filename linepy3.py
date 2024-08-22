@@ -17,7 +17,7 @@ arif.log("Channel Access Token : " + str(channel.channelAccessToken))
 arif1 = LineClient(authToken='qv/VDmZuGik4aFQEYRTZRMctdoSx/YrPVPigDmQJF6sHxg6zegMzVXYe88/2S41AF0AaeAXIpUQqTufuLrGZUbvHedOmrfV5MfqbiNMl2J7eXnKc8ra0jNC4hAKPG8lzQCU/EOIdJ+S6jOsCHtaaLAdB04t89/1O/w1cDnyilFU=')
 arif1.log("Auth Token : " + str(arif1.authToken))
 #======================
-arif2 = LineClient(authToken='qv/VDmZuGik4aFQEYRTZRMctdoSx/YrPVPigDmQJF6sHxg6zegMzVXYe88/2S41AF0AaeAXIpUQqTufuLrGZUbvHedOmrfV5MfqbiNMl2J7eXnKc8ra0jNC4hAKPG8lzQCU/EOIdJ+S6jOsCHtaaLAdB04t89/1O/w1cDnyilFU=)
+arif2 = LineClient(authToken='qv/VDmZuGik4aFQEYRTZRMctdoSx/YrPVPigDmQJF6sHxg6zegMzVXYe88/2S41AF0AaeAXIpUQqTufuLrGZUbvHedOmrfV5MfqbiNMl2J7eXnKc8ra0jNC4hAKPG8lzQCU/EOIdJ+S6jOsCHtaaLAdB04t89/1O/w1cDnyilFU=')
 arif2.log("Auth Token : " + str(arif2.authToken))
 #======================
 settingsOpen = codecs.open("arifbots.json","r","utf-8")
